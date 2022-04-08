@@ -16,11 +16,11 @@
 	}
 </style>
 
-<div class="lottery-panel">
+<div>
 <table border='0'>
 	<tr>
 	<?php
-	// Declare an array of numbers
+	//arr. of numbers
 	$numbers = array();
 					
 	for($n=0;$n<20;) {
@@ -34,7 +34,7 @@
 		endif;
 	}
 		
-	// Order the array in ascending order
+	
 	sort($numbers);
 	
 	// Print the numbers drawn
