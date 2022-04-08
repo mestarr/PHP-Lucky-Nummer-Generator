@@ -24,7 +24,7 @@
 	$numbers = array();
 					
 	for($n=0;$n<20;) {
-		// Generate a random number
+		// random number
 		$r = rand (100, 1000);
 		
 		// Checking if the number is not in the array
@@ -37,7 +37,7 @@
 	
 	sort($numbers);
 	
-	// Print the numbers drawn
+	// Print 
 	for($n=0;$n<20;$n++) {
 		if($numbers[$n] == 100)
 			echo("<td>?</td>");	
