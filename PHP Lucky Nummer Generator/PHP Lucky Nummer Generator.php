@@ -24,10 +24,10 @@
 	$numbers = array();
 					
 	for($n=0;$n<20;) {
-		// random number
+		//list random number
 		$r = rand (100, 1000);
 		
-		// Checking if the number is not in the array
+		// Checking the number if is not in the array list
 		if(!in_array( $r, $numbers) )  :
 			$numbers[$n] = $r;
 			$n++;
