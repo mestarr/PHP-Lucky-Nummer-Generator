@@ -11,7 +11,7 @@
 	}
 	
 	td {
-		font-size:19px;
+		font-size:25px;
 		text-align:center;
 	}
 </style>
@@ -27,7 +27,7 @@
 		//list random number
 		$r = rand (100, 1000);
 		
-		// Checking the number if is not in the array list
+		// Checking the number, if is not in the array list
 		if(!in_array( $r, $numbers) )  :
 			$numbers[$n] = $r;
 			$n++;
